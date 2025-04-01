@@ -1,3 +1,4 @@
+
 # **Student-Led-Tutorial: Genome Annotation Using Prokka**
 ### **Task**: Annotate a Bacterial Genome and Submit to a Public Repository
 ### **Date**: April 17th
@@ -69,5 +70,6 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - bradyrhizobium.faa: Predicted proteins.
 - bradyrhizobium.ffn: Predicted coding sequences (CDS).
 - bradyrhizobium.tbl: Table file for GenBank submission.
+
 
 
