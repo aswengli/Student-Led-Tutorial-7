@@ -71,5 +71,17 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - bradyrhizobium.ffn: Predicted coding sequences (CDS).
 - bradyrhizobium.tbl: Table file for GenBank submission.
 
+- ### **Step 4: Validate Annotations**
+1. Check for functional annotations
+- Use KEGG Mapper to map annotated genes to metabolic pathways. This categorizes genes into functional categories.
+- ***NOTE: you WILL need to make an account with your SVSU email to access this***
+- 
+- ``` bash
+  Upload bradyrhizobium.faa to KEGG Blast Koala (https://www.kegg.jp/blastkoala/).
+  
+- Enter blastkopala generated KO numbers into the KEGG MAPPER- RECONSTRUCT (https://www.genome.jp/kegg/mapper/reconstruct.html
 
+### **Step 5: IGV**
+1. use this link to upload your file to IGV. This browser tool is used in genomics and bioinformatics to explore and analyze large-scale genomic data.
 
+**USE** https://igv.org/app/
