@@ -74,7 +74,8 @@ prokka --outdir prokka_output --prefix bradyrhizobium --genus Bradyrhizobium --s
 - ### **Step 4: Validate Annotations**
 1. Check for functional annotations
 - Use KEGG Mapper to map annotated genes to metabolic pathways. This categorizes genes into functional categories.
-- ***NOTE: you WILL need to make an account with your SVSU email to access this***
+
+***NOTE: you WILL need to make an account with your SVSU email to access this***
 - 
 - ``` bash
   Upload bradyrhizobium.faa to KEGG Blast Koala (https://www.kegg.jp/blastkoala/).
